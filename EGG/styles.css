@@ -1,0 +1,49 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  background-color: rgb(69, 112, 213);
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+  gap: 1.2em;
+}
+
+header nav ul li a {
+  color: white;
+}
+
+.logo i {
+  color: white;
+}
+
+.seccion-1 {
+  background-color: beige;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+
+}
+.acerca-de {
+  text-align: center;
+  height: 300px;
+  padding:2em;
+}
+.acerca-imagen {
+  text-align: center;
+  height: 300px;
+  padding: 2em;
+}
+img {
+  max-width: 300px;
+  height: 300px;
+
+}
